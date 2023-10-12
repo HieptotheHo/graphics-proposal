@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+:root{
+    --main-color: #01152e
+}
+
+#container {
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: var(--main-color);
+}
+
+h1 {
+    font-size: 6em;
+}
+
+#members {
+    display: flex;
+    padding: 1rem 9rem 0 9rem;
+}
+
+.member-info{
+    margin:auto;
+}
+
+header {
+    /* border-bottom: 1px solid black; */
+    padding-bottom: 1rem;
+}
+
+.title-box {
+    display:flex;
+}
+.shape{
+    background-color: #badb18;
+    width: 100%;
+    height: 3px;
+    margin: auto;
+    margin-left: 5px;
+    margin-right:5px;
+}
+
+.section-title {
+    color:  #badb18;
+    background-color: var(--main-color);
+    width: 12%;
+}
+
+.section-content {
+    text-align: justify;
+    margin-top: 0.5em;
+}
+
+.part {
+    /* padding: 1rem 3rem 1rem 3rem; */
+    margin: 1rem 2rem 1rem 2rem;
+    color: white;
+}
+
+#art-example {
+    margin-top:1em;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 6em 0 6em;
+}
+
+.artworks {
+    width: 45%;
+    border-radius: 50px;
+    border: 3px #badb18 solid;
+}
+
+#tech-stack {
+    margin-top: 1em;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.tech-logo{
+    width: 17%;
+}
+
+li {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    margin: 1em;
+    font-size: large;
+}
